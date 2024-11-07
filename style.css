@@ -1,0 +1,21 @@
+.logo-css {
+  height: 90px;
+  width: 90px;
+  margin-left: 37px;
+}
+
+.me-img {
+  height: 200px;
+  width: 200px;
+}
+
+header {
+  background-color: rgb(219, 216, 216);
+  position: sticky;
+  top: 0;
+}
+
+.lo-img {
+  height: 150px;
+  width: 150px;
+}

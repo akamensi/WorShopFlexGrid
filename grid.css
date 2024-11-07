@@ -1,0 +1,92 @@
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+  gap: 60px;
+}
+
+.menu-section {
+  grid-column: 4/6;
+  grid-row: 1/6;
+}
+
+.about-section {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.location-section {
+  grid-column: 1/4;
+  grid-row: 2/4;
+}
+
+.contact-section {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+.about-section {
+  display: flex;
+}
+
+.us {
+  justify-self: center;
+}
+
+.location-section {
+  display: flex;
+  flex-direction: column;
+}
+.lo-t {
+  align-self: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hh {
+  justify-self: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
